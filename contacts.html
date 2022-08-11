@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <form class="" action="mailto:lcim1104@gmail.com?subject=Response from web form" enctype="text/plain" method="post">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" autofocus autocomplete="on" required><br>
+    <label for="address">Enter your address</label>
+    <input type="text" id="Address" name="Address"><br>
+    <label for="Email">Your Email Address</label>
+    <input type="email" id="Email" name="Email" multiple><br>
+    <label for="Phone">Enter your phone Number: eg</label>
+    <input type="tel" id="Phone" name="Phone" ><br>
+    <label for="date">Select Start and End Dates</label>
+    <input type="date" name="date" id="date"><br>
+    <label for="age">Select age from 18 to 40</label>
+    <input type="range" name="age" id="age" min="18" max="40"><br>
+    <label for="plangs">Select your favorite Prog. Lang</label>
+    <input list="favProgLang" name="plangs" id="plangs">
+    <datalist id="favProgLang">
+      <option value="Ruby"></option>
+      <option value="Python"></option>
+      <option value="C++"></option>
+      <option value="JavaScript"></option>
+      <option value="Perl"></option>
+    </datalist>
+    <label for="reset"></label><br>
+    <input type="reset" name="Reset" />
+    <input type="submit" name="" value="submit">
+  </form>
+</body>
+
+</html>
